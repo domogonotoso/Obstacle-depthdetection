@@ -1,0 +1,41 @@
+{
+  "webcam_local": {
+    "results": 30,
+    "rolling_completed_fps": 11.6747,
+    "first_inference_ms": 1016.0,
+    "client_inference_ms": {
+      "mean_all": 111.93333333333334,
+      "mean_after_first": 80.75862068965517
+    },
+    "capture_to_result_ms": {
+      "mean_all": 128.63333333333333,
+      "mean_after_first": 98.03448275862068
+    }
+  },
+  "webcam_remote": {
+    "results": 30,
+    "rolling_completed_fps": 11.6747,
+    "first_inference_ms": 797.0,
+    "client_inference_ms": {
+      "mean_all": 106.26666666666667,
+      "mean_after_first": 82.44827586206897
+    },
+    "capture_to_result_ms": {
+      "mean_all": 125.0,
+      "mean_after_first": 101.82758620689656
+    }
+  },
+  "webcam_gui": {
+    "results": 15,
+    "rolling_completed_fps": 12.1107,
+    "first_inference_ms": 953.0,
+    "client_inference_ms": {
+      "mean_all": 135.33333333333334,
+      "mean_after_first": 76.92857142857143
+    },
+    "capture_to_result_ms": {
+      "mean_all": 152.13333333333333,
+      "mean_after_first": 93.78571428571429
+    }
+  }
+}

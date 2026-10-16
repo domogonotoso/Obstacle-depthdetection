@@ -1,0 +1,109 @@
+{
+  "component": "all",
+  "image": "coco_indoor.png",
+  "width": 640,
+  "height": 480,
+  "yolo_size": 640,
+  "depth_size": 518,
+  "warmup": 3,
+  "runs": 10,
+  "timings_ms": [
+    85.36180000010063,
+    87.17930000057095,
+    109.85000000073342,
+    85.67029999903752,
+    83.92819999789936,
+    88.0555000003369,
+    80.68219999768189,
+    78.4691999979259,
+    70.58609999876353,
+    73.87349999771686
+  ],
+  "mean_ms": 84.3656099990767,
+  "median_ms": 84.64499999899999,
+  "measured_sequential_fps": 11.853170978209535,
+  "measurement_scope": "Repeated still image, excludes camera/JPEG/network/rendering; not webcam FPS",
+  "gpu": {
+    "torch_version": "2.6.0+cu124",
+    "torch_cuda_version": "12.4",
+    "cuda_available": true,
+    "cuda_device_count": 1,
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA GeForce RTX 3080",
+    "gpu_total_memory_bytes": 10736893952,
+    "cuda_tensor_test": true
+  },
+  "result": {
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "bbox": [
+          10.106414794921875,
+          57.31434631347656,
+          317.6597900390625,
+          472.212158203125
+        ],
+        "label": "cat",
+        "confidence": 0.9280321598052979,
+        "class_id": 15,
+        "direction": "LEFT",
+        "distance_m": 1.6164029836654663,
+        "valid_fraction": 1.0,
+        "depth_samples": 32240
+      },
+      {
+        "bbox": [
+          338.12078857421875,
+          25.168914794921875,
+          638.7052612304688,
+          372.88360595703125
+        ],
+        "label": "cat",
+        "confidence": 0.9180223345756531,
+        "class_id": 15,
+        "direction": "RIGHT",
+        "distance_m": 1.698368787765503,
+        "valid_fraction": 1.0,
+        "depth_samples": 26274
+      },
+      {
+        "bbox": [
+          40.25164794921875,
+          73.41722106933594,
+          175.6992950439453,
+          118.51002502441406
+        ],
+        "label": "remote",
+        "confidence": 0.6669608354568481,
+        "class_id": 65,
+        "direction": "LEFT",
+        "distance_m": 1.4576716423034668,
+        "valid_fraction": 1.0,
+        "depth_samples": 1632
+      },
+      {
+        "bbox": [
+          5.8375244140625,
+          1.05377197265625,
+          636.6651611328125,
+          475.8828430175781
+        ],
+        "label": "couch",
+        "confidence": 0.5000495910644531,
+        "class_id": 57,
+        "direction": "CENTER",
+        "distance_m": 1.6378422975540161,
+        "valid_fraction": 1.0,
+        "depth_samples": 75524
+      }
+    ],
+    "timings_ms": {
+      "yolo": 20.850699998845812,
+      "depth": 51.14479999974719,
+      "fusion": 1.7457000030844938,
+      "total": 73.7412000016775
+    },
+    "device": "cuda:0"
+  }
+}

@@ -1,0 +1,15 @@
+.venv/
+.venv-*/
+.runtime/
+.cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+.env
+.idea/
+.vscode/

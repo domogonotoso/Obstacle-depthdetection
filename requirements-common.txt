@@ -1,0 +1,5 @@
+# PyTorch is installed separately from its official CUDA wheel index.
+numpy==2.1.3
+opencv-python==4.11.0.86
+ultralytics==8.3.221
+requests==2.32.5

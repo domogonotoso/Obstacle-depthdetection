@@ -1,0 +1,42 @@
+{
+  "component": "depth",
+  "image": "coco_indoor.png",
+  "width": 640,
+  "height": 480,
+  "yolo_size": 640,
+  "depth_size": 518,
+  "warmup": 3,
+  "runs": 10,
+  "timings_ms": [
+    54.25670000113314,
+    53.144800000154646,
+    51.91679999916232,
+    49.92199999833247,
+    50.11949999970966,
+    52.3994999966817,
+    50.75120000037714,
+    53.556499999103835,
+    56.0659000002488,
+    57.83950000113691
+  ],
+  "mean_ms": 52.99723999960406,
+  "median_ms": 52.77214999841817,
+  "measured_sequential_fps": 18.868907135682367,
+  "measurement_scope": "Repeated still image, excludes camera/JPEG/network/rendering; not webcam FPS",
+  "gpu": {
+    "torch_version": "2.6.0+cu124",
+    "torch_cuda_version": "12.4",
+    "cuda_available": true,
+    "cuda_device_count": 1,
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA GeForce RTX 3080",
+    "gpu_total_memory_bytes": 10736893952,
+    "cuda_tensor_test": true
+  },
+  "depth": {
+    "unit": "meters",
+    "min": 1.160815954208374,
+    "median": 1.517594337463379,
+    "max": 1.8083842992782593
+  }
+}

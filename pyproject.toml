@@ -1,0 +1,14 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+markers = [
+    "hardware: opt-in real GPU/model/webcam integration (RUN_HARDWARE_TESTS=1)",
+]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 110
+exclude = ["third_party", ".venv", ".runtime", ".cache"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F"]

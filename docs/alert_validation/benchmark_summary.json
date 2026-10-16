@@ -1,0 +1,58 @@
+{
+  "webcam_alert_local": {
+    "results": 30,
+    "rolling_completed_fps": 13.7506,
+    "first_inference_ms": 797.0,
+    "mean_inference_ms_after_first": 70.58620689655173,
+    "objects_observed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "webcam_alert_remote": {
+    "results": 10,
+    "rolling_completed_fps": 12.0,
+    "first_inference_ms": 78.0,
+    "mean_inference_ms_after_first": 70.88888888888889,
+    "objects_observed": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "diagnostics": {
+    "torch_version": "2.6.0+cu124",
+    "torch_cuda_version": "12.4",
+    "cuda_available": true,
+    "cuda_device_count": 1,
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA GeForce RTX 3080",
+    "gpu_total_memory_bytes": 10736893952,
+    "cuda_tensor_test": true,
+    "yolo_model": "yolo11n",
+    "depth_model": "Metric-Depth-Anything-V2-Hypersim-Small",
+    "depth_unit": "meters",
+    "depth_model_max_m": 20.0,
+    "yolo_size": 640,
+    "depth_size": 518,
+    "target_classes": {
+      "0": "person",
+      "1": "bicycle",
+      "13": "bench",
+      "16": "dog",
+      "24": "backpack",
+      "28": "suitcase",
+      "56": "chair",
+      "57": "couch",
+      "58": "potted plant",
+      "60": "dining table"
+    },
+    "detector_device": "cuda:0",
+    "depth_device": "cuda:0",
+    "weights_sha256": {
+      "yolo11n": "0ebbc80d4a7680d14987a577cd21342b65ecfd94632bd9a8da63ae6417644ee1",
+      "metric_hypersim_small": "b782898d8a3e8be1f639de33837ed85e9b4b73e40f8f5e5cd99067588d722545"
+    },
+    "ready": true
+  },
+  "frames": [
+    {
+      "classes": [
+        57
+      ],
+      "level": "Unknown",
+      "nearest_distance_m": 1.6300280094146729
+    },
+    {
+      "classes": [
+        57
+      ],
+      "level": "Warning",
+      "nearest_distance_m": 1.6300280094146729
+    },
+    {
+      "classes": [
+        57
+      ],
+      "level": "Warning",
+      "nearest_distance_m": 1.6300280094146729
+    }
+  ]
+}

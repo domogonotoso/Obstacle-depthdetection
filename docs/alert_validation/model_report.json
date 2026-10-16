@@ -1,0 +1,64 @@
+{
+  "component": "all",
+  "image": "coco_indoor.png",
+  "width": 640,
+  "height": 480,
+  "yolo_size": 640,
+  "depth_size": 518,
+  "warmup": 3,
+  "runs": 10,
+  "timings_ms": [
+    71.92940000095405,
+    67.15930000063963,
+    68.31429999874672,
+    67.88950000191107,
+    67.6357000011194,
+    66.48940000013681,
+    69.0641000001051,
+    67.61000000187778,
+    70.46590000027209,
+    77.61440000103903
+  ],
+  "mean_ms": 69.41720000068017,
+  "median_ms": 68.1019000003289,
+  "measured_sequential_fps": 14.405651625104467,
+  "measurement_scope": "Repeated still image, excludes camera/JPEG/network/rendering; not webcam FPS",
+  "gpu": {
+    "torch_version": "2.6.0+cu124",
+    "torch_cuda_version": "12.4",
+    "cuda_available": true,
+    "cuda_device_count": 1,
+    "device": "cuda:0",
+    "gpu_name": "NVIDIA GeForce RTX 3080",
+    "gpu_total_memory_bytes": 10736893952,
+    "cuda_tensor_test": true
+  },
+  "result": {
+    "width": 640,
+    "height": 480,
+    "objects": [
+      {
+        "bbox": [
+          5.8375244140625,
+          1.05377197265625,
+          636.6651611328125,
+          475.8828430175781
+        ],
+        "label": "couch",
+        "confidence": 0.5000495910644531,
+        "class_id": 57,
+        "direction": "CENTER",
+        "distance_m": 1.6378422975540161,
+        "valid_fraction": 1.0,
+        "depth_samples": 75524
+      }
+    ],
+    "timings_ms": {
+      "yolo": 21.642900002916576,
+      "depth": 55.128999996668426,
+      "fusion": 0.7178000014391728,
+      "total": 77.48970000102418
+    },
+    "device": "cuda:0"
+  }
+}

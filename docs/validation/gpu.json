@@ -1,0 +1,9 @@
+﻿{
+  "torch_version": "2.6.0+cu124",
+  "torch_cuda_version": "12.4",
+  "cuda_available": true,
+  "cuda_device_count": 1,
+  "gpu_name": "NVIDIA GeForce RTX 3080",
+  "gpu_total_memory_bytes": 10736893952,
+  "cuda_tensor_test": true
+}

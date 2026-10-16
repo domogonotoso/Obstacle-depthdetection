@@ -1,0 +1,30 @@
+# YOLO class IDs and expected model.names labels. Restart after editing.
+[detection.classes]
+"0" = "person"
+"1" = "bicycle"
+"13" = "bench"
+"16" = "dog"
+"24" = "backpack"
+"28" = "suitcase"
+"56" = "chair"
+"57" = "couch"
+"58" = "potted plant"
+"60" = "dining table"
+
+[alerts]
+display_max_m = 3.0
+warning_m = 2.0
+danger_m = 1.0
+warning_repeat_s = 3.0
+danger_repeat_s = 1.5
+sound_enabled = true
+# Median window per class/IoU association; confirmation counts fresh results.
+smoothing_window = 5
+confirm_frames = 2
+hysteresis_m = 0.15
+# Intersection width with the central third / clipped object box width.
+center_overlap_ratio = 0.35
+track_iou_threshold = 0.3
+track_ttl_s = 1.0
+# Old or failed results must never continue triggering sound.
+result_timeout_s = 1.0

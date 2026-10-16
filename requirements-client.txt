@@ -1,0 +1,4 @@
+# Windows remote webcam client: no torch or model downloads required.
+numpy==2.1.3
+opencv-python==4.11.0.86
+requests==2.32.5
